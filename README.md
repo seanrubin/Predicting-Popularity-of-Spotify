@@ -49,6 +49,8 @@ These queries were created in Google Colab and can be found in the Github as Spo
 ## Running The Model
 To create the model, we set the y variable to be the popularity values above 71 (the 75th percentile) and the x variable to the rest of the columns with integer values. We created three layers with 80, 30, and 1 units and we came to these numbers after testing and finding that these gave us the most desirable results. We then ran the model for 20 epochs and got an accuracy of 75.65%.
 
+![image](https://github.com/user-attachments/assets/0eb1ba28-156d-4e07-b8c9-5e68ebd5a25d)
+
 ![image](https://github.com/user-attachments/assets/b1c7fe8b-b6ed-4152-a2c2-98d5b7afb644)
 
 We then went back to spark to find a random entry to test this on. We found the average entry by popularity and put all of the data from that into our model. The result we were given was a 16.2% predicted popularity.
